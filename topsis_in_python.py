@@ -62,3 +62,7 @@ def topsis(matrix,weight,feat):
     
     final=perscore.index(max(perscore))  
     return final+1
+
+
+if __name__=="__main__":
+    topsis(matrix,weight,feat)
